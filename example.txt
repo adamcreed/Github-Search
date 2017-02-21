@@ -1,0 +1,435 @@
+Enter a repo search term:
+api
+Enter a code search term:
+api_key
+User: simondlevy, Matches: /licenses/>.
+'''
+
+# Get a key from https://developers.google.com/maps/documentation/staticmaps/#api_key/#api_key
+
+Once you have your key, put it in the file goompy/key.py, and GooMPy will use it in fetching
+User: jano017, Matches:  ["best", "top"]:
+            url = "http://api.champion.gg/stats/role/{}/bestPerformance?api_key
+User: shamelessApathy, Matches: <?php
+return array(
+	'api_key' => '',
+	'allow_usage_tracking' => 0
+); esc_url( sprintf( '//akismet.com/web/1.0/user-stats.php?blog=%s&api_key=%s&locale=%s', urlencode esc_url( sprintf( '//akismet.com/web/1.0/user-stats.php?blog=%s&api_key=%s&locale=%s', urlencode esc_url( sprintf( '//akismet.com/web/1.0/user-stats.php?blog=%s&api_key=%s&locale=%s', urlencode esc_url( sprintf( '//akismet.com/web/1.0/user-stats.php?blog=%s&api_key=%s&locale=%s', urlencode>startSetup();
+
+$this->getConnection()->changeColumn(
+    $this->getTable('api/user'),
+    'api_key {
+
+  /**
+   * API key
+   *
+   * @since    1.0.0
+   * @access   private
+   * @var      string    $api_key[api_key]" value="<?php echo esc_attr( $opts['api_key'] ); ?>" />
+							<p class="help">
+								<?php _e' ) );
+			}
+			$username = vc_settings()->get( 'envato_username' );
+			$api_key = vc_settings()->get
+     *
+     * @access    public
+     * @since     1.0
+     */
+    public $api_key;
+
+    /**
+     * The default
+	 */
+	protected $api_key = '';
+
+	/**
+	 * @var string The error message of the latest API request (if any( $new_key );
+		}
+
+		return true;
+	}
+
+	public static function save_key( $api_key ) {
+		$key_status( $new_key );
+		}
+
+		return true;
+	}
+
+	public static function save_key( $api_key ) {
+		$key_status( $new_key );
+		}
+
+		return true;
+	}
+
+	public static function save_key( $api_key ) {
+		$key_status::save_key( $new_key );
+		}
+
+		return true;
+	}
+
+	public static function save_key( $api_key','PLbDImkyrISyLl3bdLk4nOLZtS7EqxK646');
+		$api_key = 'AIzaSyBWW-_rbHO-99soLE49jWAc8GmR0LofDyg';
+		$url>getApiKey()) {
+            $data['api_key']   = $this->_getEncodedApiKey($this->getApiKey();
+        }
+
+        if ($this->getApiKey()) {
+            $data['api_key']   = $this->_getEncodedApiKey($this-)
+    {
+        static $method = 'flickr.people.findByUsername';
+
+        $options = array('api_key()->toggle( $settings['allow_usage_tracking'] );
+		}
+
+		// Sanitize API key
+		$settings['api_key<?php if ( ! $this->api_key ) : // no api key, provide a button to get one ?>
+
+	<div class<?php if ( ! $this->api_key ) : // no api key, provide a button to get one ?>
+
+	<div class via support portal and does not use Envato username and
+ * api_key anymore
+ */
+class Vc_License utf8 NOT NULL default '',
+  `api_key` varchar(40) character set utf8 NOT NULL default '',
+  `created', array(
+                'name'  => 'api_key',
+                'label' => Mage::helper('adminhtml')->__ default '',
+  `api_key` varchar(40) character set utf8 NOT NULL default '',
+  `created` datetime NOT NULL'  => 'api_key',
+                'label' => Mage::helper('adminhtml')->__('API Key( $options['user_name'] ) ) ? $options['user_name'] : '';
+      $api_key = ( isset( $options['api_key Zend_Cloud_StorageService_Adapter
+{
+    const USER                = 'user';
+    const API_KEY             = 'key's 'ssl_use_cabundle()' method.
+ *   #
+ *   $auth = new CF_Authentication($username, $api_key
+User: tahb, Matches: language: ruby
+rvm:
+- 2.4.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: i2AIxDEtp
+User: warrendodsworth, Matches: {"app_id":"8a804417","api_key":"4cd2301ab0be08b7a9635fa3c43e90caa2e9b0f3aaaaabb8"}{"dev_push":true,"app_id":"ea49df13","api_key":"dc3c80d784a96ccd81711029a8c160243c0a94add4b3285f"} === '') {
+      this.logger.info('No api_key was provided');
+      return false;
+    }
+
+    privateData.id = appId
+      };
+    });
+  }
+
+  get hasValidSettings() {
+    if (!settings.get('app_id') || !settings.get('api_key.get('app_id'), settings.get('api_key'));
+    IonicApp.devPush = settings.get('dev_push') + ':' + settings.get('api_key'))
+        }
+      };
+
+      return new _coreRequest.APIRequest
+User: assefamaru, Matches: :
+  name: MyString
+  email: MyString
+  api_key: MyString
+
+two:
+  name: MyString
+  email: MyString
+  api_key: MyString
+ "white list" through.
+    def user_params
+      params.require(:user).permit(:name, :email, :api_key)
+    end
+end
+ |t|
+      t.string :name
+      t.string :email
+      t.string :api_key
+
+      t.timestamps
+    end
+  end
+end
+.api_key = user.generate_api_key
+	end
+
+	# Generate a unique API key
+	def generate_api_key
+		loop do users_url, params: { user: { api_key: @user.api_key, email: @user.email, name: @user.name } }, as right-hand column, click on `Labels` and select `api_key request` from the dropdown list.
+5. Click on "Submit new issue" button.
+ right-hand column, click on `Labels` and select `api_key request` from the dropdown list.
+5. Click on "Submit new issue" button.
+ |token, options|
+			@current_user = User.find_by(api_key: token)
+		end
+	end
+
+	def render_unauthorized   "api_key"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+end
+://cellosaurus.pharmacodb.com/v1/
+```
+
+Returned data is in `json` format.
+
+A valid [API Key](API_KEY.md://cellosaurus.pharmacodb.com/v1/
+```
+
+Returned data is in `json` format.
+
+A valid [API Key](API_KEY.md
+User: Automattic, Matches:  ($) {
+
+  // obtain username by apikey and replace signin links with baked URL
+  (function () {
+    var api_key ($) {
+
+  // obtain username by apikey and replace signin links with baked URL
+  (function () {
+    var api_key<?php
+$API_KEY = 'cssproxy';
+
+$postText = 'data=' . $_GET['data'];
+$language = $_GET['lang'];
+
+if = '2.0';
+	private $api_key;
+	private $api_secret;
+
+	public function __construct($api_key, $api_secret echo esc_html( $api_key ); ?></strong>
+  </p>
+
+  <p>
+    <?php _e('Zemanta API Status', 'zemanta esc_url( sprintf( '//akismet.com/web/1.0/user-stats.php?blog=%s&api_key=%s&locale=%s', urlencode echo esc_html( $api_key ); ?></strong>
+  </p>
+
+  <p>
+    <?php _e('Zemanta API Status', 'zemanta esc_url( sprintf( '//akismet.com/web/1.0/user-stats.php?blog=%s&api_key=%s&locale=%s', urlencode.
+$API_KEY = "";
+
+if ( $_SERVER['REQUEST_METHOD'] === 'POST' )
+{
+   $postText = trim(file_get_contents('php.
+$API_KEY = "";
+
+if ( $_SERVER['REQUEST_METHOD'] === 'POST' )
+{
+   $postText = trim(file_get_contents('php.
+$API_KEY = "";
+
+if ( $_SERVER['REQUEST_METHOD'] === 'POST' )
+{
+   $postText = trim(file_get_contents('php. connected|disconnected|disabled
+	 */
+	private function get_status() {
+		$api_key = $this->options {
+	var $partner_code;
+	var $api_key;
+	var $api_secret;
+
+	public function __construct( $args = function () {
+	return '<?php echo esc_js( $api_key ); ?>';
+};
+
+window.ZemantaPluginVersion' );
+
+		return (object) wp_parse_args(
+			$settings,
+			array(
+				'api_key. connected|disconnected|disabled
+	 */
+	private function get_status() {
+		$api_key = $this->options {
+	var $partner_code;
+	var $api_key;
+	var $api_secret;
+
+	public function __construct( $args = function () {
+	return '<?php echo esc_js( $api_key ); ?>';
+};
+
+window.ZemantaPluginVersion' );
+
+		return (object) wp_parse_args(
+			$settings,
+			array(
+				'api_key $api_key = jQuery("#api_key"),
+		api_key_button_id = "#api_key_submit",
+		filled = false $api_key = jQuery("#api_key"),
+		api_key_button_id = "#api_key_submit",
+		filled = false $version = '1.2.3';
+	var $api_url = 'http://api.zemanta.com/services/rest/0.0/';
+	var $api_key $version = '1.2.3';
+	var $api_url = 'http://api.zemanta.com/services/rest/0.0/';
+	var $api_key' )( 'calypso:bootstrap' ),
+	crypto = require( 'crypto' );
+
+var config = require( 'config' ),
+	API_KEY('sailthru_setup_options');
+			$api_key = $sailthru['sailthru_api_key'];
+			$api_secret = $sailthru('sailthru_setup_options');
+			$api_key = $sailthru['sailthru_api_key'];
+			$api_secret = $sailthru('sailthru_setup_complete')) {
+
+		$sailthru = get_option('sailthru_setup_options');
+		$api_key = $sailthru('sailthru_setup_complete')) {
+
+		$sailthru = get_option('sailthru_setup_options');
+		$api_key = $sailthru ) {
+			self::save_key( $new_key );
+		}
+
+		return true;
+	}
+
+	public static function save_key( $api_key ) {
+			self::save_key( $new_key );
+		}
+
+		return true;
+	}
+
+	public static function save_key( $api_key
+User: balihoo, Matches: language: scala
+scala:
+- 2.10.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: IsXAkJwDrJxhNpatClanguage: scala
+scala:
+- 2.10.3
+deploy:
+  provider: heroku
+  api_key:
+    secure: EaNH String API_KEY;
+    private final String SECRET_KEY;
+    private final String ENDPOINT
+User: googleapis, Matches: ": "library-example.googleapis.com",
+    "securityDefinitions": {
+      "api_key": {
+        "type": "apiKey": "library-example.googleapis.com",
+    "securityDefinitions": {
+      "api_key": {
+        "type": "apiKey": {
+            }
+        },
+        "api_key": {
+            "type": "apiKey",
+            "name": "key": {
+            }
+        },
+        "api_key": {
+            "type": "apiKey",
+            "name": "key": {
+            }
+        },
+        "api_key": {
+            "type": "apiKey",
+            "name": "key": {
+            }
+        },
+        "api_key": {
+            "type": "apiKey",
+            "name": "key",
+            "in": {
+            }
+        },
+        "api_key": {
+            "type": "apiKey",
+            "name": "key:
+  //             - name: api_key
+  //               url_query_parameter: api_key
+  //
+  //
+  // Example: define. */
+public enum AuthType {
+  APPLICATION_DEFAULT_CREDENTIALS,
+  OAUTH_3L,
+  API_KEY
+}
+": [
+                    {
+                        "api_key != "API_KEY"
+            'clientId': '',  // TODO: Update placeholder with desired client ID:<project_number>,
+  //   api_key:<api_key>.
+  string consumer_id = 3;
+
+  // Required. Start time of": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"security": [
+		{
+			"api_key": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"security": [
+		{
+			"api_key.com",
+    "securityDefinitions": {
+        "api_key": {
+            "type": "apiKey.credentialsVarName} = None
+    @case "API_KEY"
+        {@class.credentialsVarName} = ''  @# TODO: Update:
+    ///      - selector: "*"
+    ///        parameters:
+    ///          - name: api_key)}
+            @if class.auth.type != "API_KEY"
+
+                {@getCredentialFunc(class)}
+            @end
+  @case "OAUTH_3L"
+    {@mainFunc(class)}
+
+    {@oAuth3LAuthFunc(class)}
+  @case "API_KEY"
+    var {@class
+  @case "API_KEY"
+    {@class.serviceVarName}.key = ''  @# TODO: Update placeholder with desired API.instructionsUrl}
+    @if class.auth.type != "API_KEY"
+      //
+      @if class.auth.isScopesSingular;
+    @case "API_KEY"
+      // TODO: Change placeholder below to generate authentication credentials == "API_KEY"
+            @# {@TODO()} Change placeholder below to desired API key:
+            {@serviceName authVarName = "";
+    switch (config.authType()) {
+      case API_KEY:
+        authVarName = "apiKey()));
+    }
+
+    String credentialsVarName =
+        config.authType() == AuthType.API_KEY ? "developerKey's API key-based.
+    if (getAuthScopes().isEmpty()) {
+      return AuthType.API_KEY
+User: mikaelm1, Matches: .flickr.com/services/rest/?method=flickr.photos.search&api_key=77b8d0f06040cd09fefe8a6e55e37f5a&lat!
+
+    //  https:api.flickr.com/services/rest/?method=flickr.photos.search&api_key
+User: deanius, Matches: class CafePress < Vendor
+  MERCHANDISE_LIST = 'http://open-api.cafepress.com/merchandise.list.cp?v=3&appKey=#{API_KEY}'
+endclass Printfection < Vendor
+  MERCHANDISE_LIST = 'http://open-api.cafepress.com/merchandise.list.cp?v=3&appKey=#{API_KEY}'
+end
+User: alshdavid, Matches: : ['*'],
+            additionalHeaders: ['api_key']
+        }
+	}
+}
+
+const Hapi = require('hapi.api_key != require("../controller/auth")['API'] ) { reply( { "message" : "Invalid API Key" } ).code(403',
+        handler: function (request, reply) {
+            if ( request.headers.api_key != require.headers.api_key != require("../controller/auth")['API'] ) { reply( { "message" : "Invalid API Key ( request.headers.api_key != require("../controller/auth")['API'] ) { reply( { "message" : "Invalid API Key:
+        function (request, reply) {
+            if ( request.headers.api_key != require
