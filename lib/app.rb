@@ -18,8 +18,6 @@ end
 
 def search_online(repos, search)
   matches = {}
-  repos_response = HTTParty.get "https://api.github.com/search/repositories?q=#{repos}&sort=updated&order=desc"
-
   users = get_users(repos)
 
   users.each do |user|
@@ -55,7 +53,7 @@ def search_repo(user, search, matches)
   search_response = get_search_results(user, search)
 
   if results_exist?(search_response)
-    add_results_to_list(matches, user, search_response)
+    add_results_to_list(user, search_response, matches)
   end
 
   search_response
@@ -74,7 +72,7 @@ def results_exist?(response)
   response.key?('total_count') and response['total_count'] > 0
 end
 
-def add_results_to_list(matches, user, search_response)
+def add_results_to_list(user, search_response, matches)
   matches[user] = search_response['items'].map do |item|
     { fragments: item['text_matches'].map { |match| match['fragment'] } }
   end
